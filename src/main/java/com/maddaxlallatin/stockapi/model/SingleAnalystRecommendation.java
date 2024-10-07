@@ -1,6 +1,6 @@
-package com.maddaxlallatin.stockapi.returns;
+package com.maddaxlallatin.stockapi.model;
 
-public class AnalystRecommendation {
+public class SingleAnalystRecommendation {
     private String analyst;
     private String overallScore;
     private String directionScore;
@@ -9,7 +9,7 @@ public class AnalystRecommendation {
     private String priceTarget;
     private String date;
 
-    public AnalystRecommendation(String analyst, String overallScore, String directionScore, String priceScore, String rating, String priceTarget, String date) {
+    public SingleAnalystRecommendation(String analyst, String overallScore, String directionScore, String priceScore, String rating, String priceTarget, String date) {
         this.analyst = analyst;
         this.overallScore = overallScore;
         this.directionScore = directionScore;

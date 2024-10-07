@@ -1,12 +1,12 @@
-package com.maddaxlallatin.stockapi.returns;
+package com.maddaxlallatin.stockapi.model;
 
 import java.util.ArrayList;
 
 public class StockHistory{
     private String ticker;
-    private ArrayList<StockHistoryDay> history;
+    private ArrayList<SingleStockHistory> history;
 
-    public StockHistory(String ticker, ArrayList<StockHistoryDay> stockHistory){
+    public StockHistory(String ticker, ArrayList<SingleStockHistory> stockHistory){
         this.ticker = ticker;
         this.history = stockHistory;
     }
@@ -19,11 +19,11 @@ public class StockHistory{
         this.ticker = ticker;
     }
 
-    public ArrayList<StockHistoryDay> getStockHistory() {
+    public ArrayList<SingleStockHistory> getStockHistory() {
         return history;
     }
 
-    public void setStockHistory(ArrayList<StockHistoryDay> stockHistory) {
+    public void setStockHistory(ArrayList<SingleStockHistory> stockHistory) {
         this.history = stockHistory;
     }
 }

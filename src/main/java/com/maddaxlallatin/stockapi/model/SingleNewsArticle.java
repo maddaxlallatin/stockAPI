@@ -1,11 +1,11 @@
-package com.maddaxlallatin.stockapi.returns;
+package com.maddaxlallatin.stockapi.model;
 
-public class NewsArticle {
+public class SingleNewsArticle {
     private String title;
     private String description;
     private String link;
 
-    public NewsArticle(String title, String description, String link) {
+    public SingleNewsArticle(String title, String description, String link) {
         this.title = title;
         this.description = description;
         this.link = link;

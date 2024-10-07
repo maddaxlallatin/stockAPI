@@ -1,6 +1,6 @@
-package com.maddaxlallatin.stockapi.returns;
+package com.maddaxlallatin.stockapi.model;
 
-public class StockHistoryDay {
+public class SingleStockHistory {
     private String date;
     private String open;
     private String high;
@@ -9,7 +9,7 @@ public class StockHistoryDay {
     private String adjustedClose;
     private String volume;
 
-    public StockHistoryDay(String date, String open, String high, String low, String close, String adjustedClose, String volume) {
+    public SingleStockHistory(String date, String open, String high, String low, String close, String adjustedClose, String volume) {
         this.date = date;
         this.open = open;
         this.high = high;
