@@ -8,8 +8,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
+
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -17,7 +16,7 @@ import java.util.ArrayList;
 @Service
 public class NewsService {
 
-    public static StockNews getStockNews(String ticker, Integer numArticles) {
+    public StockNews getStockNews(String ticker, Integer numArticles) {
 
         if(numArticles > 20){
             throw new InvalidNumberArticlesException("Invalid Number of Articles Given: Must be 20 or less");
