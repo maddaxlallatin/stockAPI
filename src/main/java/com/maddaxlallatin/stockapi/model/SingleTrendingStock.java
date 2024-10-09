@@ -1,6 +1,6 @@
 package com.maddaxlallatin.stockapi.model;
 
-public class singleTrendingStock {
+public class SingleTrendingStock {
     private String ticker;
     private String companyName;
     private String price;
@@ -13,7 +13,7 @@ public class singleTrendingStock {
     private String yearChangePercent;
     private String dayChart;
 
-    public singleTrendingStock(String ticker, String companyName, String price, String change, String changePercent, String volume, String averageVolume, String marketCap, String priceEarningsRatio, String yearChangePercent, String dayChart) {
+    public SingleTrendingStock(String ticker, String companyName, String price, String change, String changePercent, String volume, String averageVolume, String marketCap, String priceEarningsRatio, String yearChangePercent, String dayChart) {
         this.ticker = ticker;
         this.companyName = companyName;
         this.price = price;
