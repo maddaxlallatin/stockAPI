@@ -1,8 +1,8 @@
 package com.maddaxlallatin.stockapi.service;
 
 import com.maddaxlallatin.stockapi.exceptions.InvalidDateException;
-import com.maddaxlallatin.stockapi.model.SingleStockHistory;
-import com.maddaxlallatin.stockapi.model.StockHistory;
+import com.maddaxlallatin.stockapi.model.History.SingleStockHistory;
+import com.maddaxlallatin.stockapi.model.History.StockHistory;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

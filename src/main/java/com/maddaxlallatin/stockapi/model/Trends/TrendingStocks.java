@@ -1,4 +1,4 @@
-package com.maddaxlallatin.stockapi.model;
+package com.maddaxlallatin.stockapi.model.Trends;
 
 import java.util.ArrayList;
 

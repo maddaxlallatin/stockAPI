@@ -1,4 +1,4 @@
-package com.maddaxlallatin.stockapi.model;
+package com.maddaxlallatin.stockapi.model.Profile;
 
 public class StockProfile {
     private String ticker;

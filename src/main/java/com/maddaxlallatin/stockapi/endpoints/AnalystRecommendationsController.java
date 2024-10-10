@@ -1,7 +1,7 @@
 package com.maddaxlallatin.stockapi.endpoints;
 
 
-import com.maddaxlallatin.stockapi.model.AnalystRecommendations;
+import com.maddaxlallatin.stockapi.model.Analyst.AnalystRecommendations;
 import com.maddaxlallatin.stockapi.service.AnalystRecommendationsService;
 
 import org.springframework.beans.factory.annotation.Autowired;

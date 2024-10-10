@@ -1,4 +1,4 @@
-package com.maddaxlallatin.stockapi.model;
+package com.maddaxlallatin.stockapi.model.Analyst;
 
 public class SingleAnalystRecommendation {
     private String analyst;

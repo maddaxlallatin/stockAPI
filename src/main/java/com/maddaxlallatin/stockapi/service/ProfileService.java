@@ -1,6 +1,6 @@
 package com.maddaxlallatin.stockapi.service;
 
-import com.maddaxlallatin.stockapi.model.StockProfile;
+import com.maddaxlallatin.stockapi.model.Profile.StockProfile;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;

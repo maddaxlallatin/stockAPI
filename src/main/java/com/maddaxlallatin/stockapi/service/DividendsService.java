@@ -1,7 +1,7 @@
 package com.maddaxlallatin.stockapi.service;
 
-import com.maddaxlallatin.stockapi.model.SingleStockDividends;
-import com.maddaxlallatin.stockapi.model.StockDividends;
+import com.maddaxlallatin.stockapi.model.Dividends.SingleStockDividends;
+import com.maddaxlallatin.stockapi.model.Dividends.StockDividends;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

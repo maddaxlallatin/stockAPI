@@ -1,7 +1,7 @@
 package com.maddaxlallatin.stockapi.service;
 
-import com.maddaxlallatin.stockapi.model.SingleTrendingStock;
-import com.maddaxlallatin.stockapi.model.TrendingStocks;
+import com.maddaxlallatin.stockapi.model.Trends.SingleTrendingStock;
+import com.maddaxlallatin.stockapi.model.Trends.TrendingStocks;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

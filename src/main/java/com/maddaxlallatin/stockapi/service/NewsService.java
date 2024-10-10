@@ -1,8 +1,8 @@
 package com.maddaxlallatin.stockapi.service;
 
 import com.maddaxlallatin.stockapi.exceptions.InvalidNumberArticlesException;
-import com.maddaxlallatin.stockapi.model.SingleNewsArticle;
-import com.maddaxlallatin.stockapi.model.StockNews;
+import com.maddaxlallatin.stockapi.model.News.SingleNewsArticle;
+import com.maddaxlallatin.stockapi.model.News.StockNews;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

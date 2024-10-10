@@ -1,8 +1,8 @@
 package com.maddaxlallatin.stockapi.service;
 
 import com.maddaxlallatin.stockapi.exceptions.InvalidAnalystException;
-import com.maddaxlallatin.stockapi.model.AnalystRecommendations;
-import com.maddaxlallatin.stockapi.model.SingleAnalystRecommendation;
+import com.maddaxlallatin.stockapi.model.Analyst.AnalystRecommendations;
+import com.maddaxlallatin.stockapi.model.Analyst.SingleAnalystRecommendation;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

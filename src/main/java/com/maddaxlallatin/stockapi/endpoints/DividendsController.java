@@ -1,6 +1,6 @@
 package com.maddaxlallatin.stockapi.endpoints;
 
-import com.maddaxlallatin.stockapi.model.StockDividends;
+import com.maddaxlallatin.stockapi.model.Dividends.StockDividends;
 import com.maddaxlallatin.stockapi.service.DividendsService;
 
 import org.springframework.beans.factory.annotation.Autowired;

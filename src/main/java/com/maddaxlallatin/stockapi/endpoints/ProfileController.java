@@ -1,6 +1,6 @@
 package com.maddaxlallatin.stockapi.endpoints;
 
-import com.maddaxlallatin.stockapi.model.StockProfile;
+import com.maddaxlallatin.stockapi.model.Profile.StockProfile;
 import com.maddaxlallatin.stockapi.service.ProfileService;
 
 import org.springframework.beans.factory.annotation.Autowired;

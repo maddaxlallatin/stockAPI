@@ -1,6 +1,6 @@
 package com.maddaxlallatin.stockapi.endpoints;
 
-import com.maddaxlallatin.stockapi.model.TrendingStocks;
+import com.maddaxlallatin.stockapi.model.Trends.TrendingStocks;
 import com.maddaxlallatin.stockapi.service.TrendingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

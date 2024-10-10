@@ -1,4 +1,4 @@
-package com.maddaxlallatin.stockapi.model;
+package com.maddaxlallatin.stockapi.model.Dividends;
 
 public class SingleStockDividends {
     private String date;

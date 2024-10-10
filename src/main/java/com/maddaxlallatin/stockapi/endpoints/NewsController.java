@@ -1,7 +1,7 @@
 package com.maddaxlallatin.stockapi.endpoints;
 
 
-import com.maddaxlallatin.stockapi.model.StockNews;
+import com.maddaxlallatin.stockapi.model.News.StockNews;
 import com.maddaxlallatin.stockapi.service.NewsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

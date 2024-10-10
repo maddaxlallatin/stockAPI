@@ -1,6 +1,6 @@
 package com.maddaxlallatin.stockapi.endpoints;
 
-import com.maddaxlallatin.stockapi.model.StockHistory;
+import com.maddaxlallatin.stockapi.model.History.StockHistory;
 import com.maddaxlallatin.stockapi.service.HistoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
