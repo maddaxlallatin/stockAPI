@@ -85,8 +85,8 @@ public class FinancialsService {
                 if(data.equals("--")){
                     cashFlowsArray.add(null);
                 }else {
-                    Double doublenNum =  Double.parseDouble(data.replace(",", ""));
-                    cashFlowsArray.add(doublenNum.intValue());
+                    Double doubleNum =  Double.parseDouble(data.replace(",", ""));
+                    cashFlowsArray.add(doubleNum.intValue());
                 }
             }
             return new CashFlow(fiscalYear, cashFlowsArray.get(0), cashFlowsArray.get(1), cashFlowsArray.get(2), cashFlowsArray.get(3), cashFlowsArray.get(4), cashFlowsArray.get(5), cashFlowsArray.get(6), cashFlowsArray.get(7), cashFlowsArray.get(8), cashFlowsArray.get(9), cashFlowsArray.get(10), cashFlowsArray.get(11));
