@@ -31,7 +31,6 @@ public class TrendingService {
                         singleStockArrayList.add(stockTicker);
                     }
                     if(count == 10){
-                        System.out.println(cell.text());
                         singleStockArrayList.add(cell.selectFirst("a").attr("abs:href"));
                     } else {
                         singleStockArrayList.add(cell.text());
