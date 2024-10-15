@@ -37,7 +37,7 @@ public class TrendingService {
                     }
                     count++;
                 }
-                SingleTrendingStock singleTrendingStock = new SingleTrendingStock(singleStockArrayList.get(0), singleStockArrayList.get(1),singleStockArrayList.get(2).split(" ")[0], singleStockArrayList.get(3), singleStockArrayList.get(4), singleStockArrayList.get(5), singleStockArrayList.get(6), singleStockArrayList.get(7), singleStockArrayList.get(8), singleStockArrayList.get(9), singleStockArrayList.get(11));
+                SingleTrendingStock singleTrendingStock = new SingleTrendingStock(singleStockArrayList.get(0), singleStockArrayList.get(1).substring(singleStockArrayList.get(1).indexOf(' ')+1),singleStockArrayList.get(2).split(" ")[0], singleStockArrayList.get(3), singleStockArrayList.get(4), singleStockArrayList.get(5), singleStockArrayList.get(6), singleStockArrayList.get(7), singleStockArrayList.get(8), singleStockArrayList.get(9), singleStockArrayList.get(11));
 
                 trendingStocksArrayList.add(singleTrendingStock);
 
