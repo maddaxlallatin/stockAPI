@@ -223,7 +223,7 @@ print(response.text)
 
 ```
 
-#### Java -OkHttp
+#### Java - OkHttp
 ```java
 OkHttpClient client = new OkHttpClient().newBuilder()
   .build();
