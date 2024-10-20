@@ -244,3 +244,7 @@ wget --no-check-certificate --quiet \
   --header '' \
    'https://api.maddaxlallatin.com/stock/v1/AAPL/financials?income_statement=true&balance_sheet=true&cash_flow=true'
 ```
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/maddaxlallatin/stockAPI/blob/master/LICENSE) file for details.
+
