@@ -1,7 +1,7 @@
 # Stock API
 
 ## Overview
-The Stock API is a RESTful web service that provides financial data such as stock prices, analyst recommendations, institutional holdings, and more for various companies based on their ticker symbols. The API sources its data from Yahoo Finance and other financial data providers.
+The Stock API is a RESTful web service that provides financial data such as stock prices, analyst recommendations, and more for various companies based on their ticker symbols. The API sources its data from Yahoo Finance.
 
 ## Features
 - Retrieve real-time and historical stock prices.
